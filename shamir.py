@@ -2,7 +2,7 @@ import secrets
 import argparse
 
 # Some cool prime for modulo calculations :)
-P = 9223372036854775783
+P = 65537
 
 def modinv(a, p):
     # p must be a prime
